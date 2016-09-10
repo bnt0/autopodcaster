@@ -1,10 +1,11 @@
 # autopodcaster
 
-Set of scripts to automatically create podcasts RSS feeds from online radio streams and Youtube videos.
+Set of scripts (currently Bash and Python 3) to automatically generate podcasts RSS feeds from online radio streams and Youtube channels (or playlists).
 
 ## Dependencies
 
-* A cron implementation
+* [feedgenerator](https://github.com/lkiesow/python-feedgen) library
+* A cron implementation (e.g. [cronie](https://fedorahosted.org/cronie/))
 
 For Youtube videos:
 * [youtube-dl](https://github.com/rg3/youtube-dl/)
